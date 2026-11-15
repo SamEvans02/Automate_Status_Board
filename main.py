@@ -1,6 +1,3 @@
-"""import stun
-nat_type, external_ip, external_port = stun.get_ip_info()
-print("Public IP: ", external_ip)"""
 print("test")
 
 
@@ -34,7 +31,7 @@ get_local_ip()"""
 
 
 
-"""import openpyxl
+import openpyxl
 
 
 wb = openpyxl.load_workbook("/mnt/c/projects/Automate_Status_Board/Team_Status_Board_2026.xlsx") #Load the existing Excel file 
@@ -55,4 +52,4 @@ wb.save("EDITED_Team_Status_Board_2026.xlsx") #Save the workbook
 
 
 if __name__ == "__main__":
-    main()"""
+    main()
