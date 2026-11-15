@@ -34,7 +34,7 @@ get_local_ip()"""
 import openpyxl
 
 
-wb = openpyxl.load_workbook("/mnt/c/projects/Automate_Status_Board/Team_Status_Board_2026.xlsx") #Load the existing Excel file 
+wb = openpyxl.load_workbook("/mnt/c/projects/Automate_Status_Board/Team_Status_Board 2026.xlsx") #Load the existing Excel file 
 sheet = wb.active #Access the active sheet 
 
 
@@ -48,7 +48,7 @@ def main():
 
 
 
-wb.save("EDITED_Team_Status_Board_2026.xlsx") #Save the workbook 
+wb.save("EDITED_Team_Status_Board 2026.xlsx") #Save the workbook 
 
 
 if __name__ == "__main__":
