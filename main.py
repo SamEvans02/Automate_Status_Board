@@ -1,11 +1,3 @@
-print("test")
-
-
-
-
-
-
-
 """import socket
 
 
@@ -41,7 +33,7 @@ sheet = wb.active #Access the active sheet
 
 
 def main():
-
+    sheet["B7"] = "Test"
     
     return 0
 
